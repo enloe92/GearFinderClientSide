@@ -43,7 +43,7 @@ export default class CharacterCreationPage extends Component{
   
 
   render(){
-    console.log(this.state)
+    
     const Specs = Object.keys(CHARACTER_CLASS_DATA.Classes[this.state.selectedClass].Specs);
     return(
       <div>

@@ -1,0 +1,12 @@
+h1{
+  text-align: center;
+  font-size: 42px;
+}
+
+.App{
+  background-color: burlywood;
+}
+
+*{
+  font-family: 'Morris Roman', serif;
+}

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Items from './Items'
-
+import { Link } from 'react-router-dom';
 
 
 
@@ -50,9 +50,24 @@ componentDidMount(){
       weapon2: this.state.items[13]
     }
     return(
+      <div>
+      <nav className="header">
+                <Link to="/homepage">Home  |</Link>
+                <Link to="/">Information</Link>
+      </nav>
+      <h3>Warrior</h3>
+                <nav className="classLinks">
+                <Link to="/fury/warrior">Fury</Link>
+                <span>|</span>
+                <Link to="/arms/warrior">Arms</Link>
+                <span>|</span>
+                <Link to="/protection/warrior">Protection</Link>
+                <span>|</span>
+      </nav>
       <Items helm={items.helm} neck={items.neck} shoulder={items.shoulder} back={items.back}
        chest={items.chest} wrist={items.wrist} gloves={items.gloves} waist={items.waist} legs={items.legs}
        boots={items.boots} ring1={items.ring1} ring2={items.ring2} weapon1={items.weapon1} weapon2={items.weapon2}/>
+      </div>  
     )
   }
 }
