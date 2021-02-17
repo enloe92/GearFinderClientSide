@@ -2,9 +2,11 @@
 
 https://wowgearfinder.enloe92.vercel.app/
 
-![Info Page](./puclic/readmeimages/infoPage.png)
-![Home Page](./puclic/readmeimages/homepage.png)
-![Gear Page](./puclic/readmeimages/exampleGearPage.png)
+![Info Page](./puclic/readmeimages/infoPage.jpg)
+
+![Home Page](./puclic/readmeimages/homepage.jpg)
+
+![Gear Page](./puclic/readmeimages/exampleGearPage.jpg)
 
 # Getting Started with Create React App
 
