@@ -23,7 +23,7 @@ export default class ProtectionWarrior extends Component {
             })
         })
         .catch(err => {
-            console.log(err)
+            
         })
         
 }

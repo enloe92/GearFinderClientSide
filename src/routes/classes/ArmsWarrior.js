@@ -23,7 +23,7 @@ export default class ArmsWarrior extends Component {
             })
         })
         .catch(err => {
-            console.log(err)
+            
         })
         
 }

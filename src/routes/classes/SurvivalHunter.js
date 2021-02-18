@@ -23,7 +23,7 @@ export default class SurvivalHunter extends Component {
             })
         })
         .catch(err => {
-            console.log(err)
+            
         })
         
 }

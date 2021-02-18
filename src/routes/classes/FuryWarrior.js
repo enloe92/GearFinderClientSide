@@ -23,7 +23,7 @@ export default class FuryWarrior extends Component {
             })
         })
         .catch(err => {
-            console.log(err)
+            
         })
         
 }

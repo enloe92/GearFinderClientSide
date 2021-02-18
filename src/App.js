@@ -26,7 +26,7 @@ class App extends Component {
         {this.state.hasError && <p>There was an error! Oh no!</p>}
         <BrowserRouter>
         <Switch>
-            
+              
               <Route
                 path='/'
                 component={Information}

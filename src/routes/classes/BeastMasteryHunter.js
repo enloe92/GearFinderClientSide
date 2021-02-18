@@ -23,7 +23,7 @@ export default class BeastMasteryHunter extends Component {
             })
         })
         .catch(err => {
-            console.log(err)
+            
         })
         
 }
